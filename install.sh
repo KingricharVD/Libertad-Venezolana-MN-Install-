@@ -83,7 +83,7 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 clear
 
 # Set these to change the version of tango to install
-TARBALLURL="https://github.com/KingricharVD/Libertad-Venezolana/raw/master/Libertadwallet.tar.gz"
+TARBALLURL="https://github.com/KingricharVD/Libertad-Venezolana/releases/download/1.0.0/Libertadwallet.tar.gz"
 TARBALLNAME="Libertadwallet.tar.gz"
 BOOTSTRAPURL=""
 BOOTSTRAPARCHIVE=""
