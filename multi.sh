@@ -79,6 +79,8 @@ echo "listen=0" >> /home/Libertad/.Libertad/Libertad.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):9735" >> /home/Libertad/.Libertad/Libertad.conf
 echo "masternodeprivkey=$privkey" >> /home/Libertad/.Libertad/Libertad.conf
 echo "addnode=155.138.218.214" >> /home/Libertad/.Libertad/Libertad.conf
+echo "addnode=45.63.10.68" >> /home/Libertad/.Libertad/Libertad.conf
+echo "addnode=178.62.93.143" >> /home/Libertad/.Libertad/Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> /home/Libertad/.Libertad/Libertad.conf
 echo 
 sleep 5
@@ -92,11 +94,13 @@ echo "server=1" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "daemon=1" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "maxconnections=250" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "masternode=1" >> /home/Libertad2/.Libertad/Libertad.conf
-echo "rpcport=9734" >> /home/Libertad2/.Libertad/Libertad.conf
+echo "rpcport=9736" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "listen=0" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):9735" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "masternodeprivkey=$privkey2" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "addnode=155.138.218.214" >> /home/Libertad2/.Libertad/Libertad.conf
+echo "addnode=45.63.10.68" >> /home/Libertad2/.Libertad/Libertad.conf
+echo "addnode=178.62.93.143" >> /home/Libertad2/.Libertad/Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> /home/Libertad2/.Libertad/Libertad.conf
 sleep 5 
 echo -e "${GREEN}Configuring Wallet for third node${NC}"
@@ -109,11 +113,13 @@ echo "server=1" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "daemon=1" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "maxconnections=250" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "masternode=1" >> /home/Libertad3/.Libertad/Libertad.conf
-echo "rpcport=9734" >> /home/Libertad3/.Libertad/Libertad.conf
+echo "rpcport=9737" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "listen=0" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):9735" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "masternodeprivkey=$privkey3" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "addnode=155.138.218.214" >> /home/Libertad3/.Libertad/Libertad.conf
+echo "addnode=45.63.10.68" >> /home/Libertad3.Libertad/Libertad.conf
+echo "addnode=178.62.93.143" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> /home/Libertad3/.Libertad/Libertad.conf
 sleep 5 
 echo -e "${GREEN}Configuring Wallet for 4th node${NC}"
@@ -126,11 +132,13 @@ echo "server=1" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "daemon=1" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "maxconnections=250" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "masternode=1" >> /home/Libertad4/.Libertad/Libertad.conf
-echo "rpcport=9734" >> /home/Libertad4/.Libertad/Libertad.conf
+echo "rpcport=9738" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "listen=0" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):9735" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "masternodeprivkey=$privkey4" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "addnode=155.138.218.214" >> /home/Libertad4/.Libertad/Libertad.conf
+echo "addnode=45.63.10.68" >> /home/Libertad4/.Libertad/Libertad.conf
+echo "addnode=178.62.93.143" >> /home/Libertad4/.Libertad/Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> /home/Libertad4/.Libertad/Libertad.conf
 sleep 5 
 fi
