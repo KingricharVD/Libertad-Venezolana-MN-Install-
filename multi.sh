@@ -118,7 +118,7 @@ echo "listen=0" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):9735" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "masternodeprivkey=$privkey3" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "addnode=155.138.218.214" >> /home/Libertad3/.Libertad/Libertad.conf
-echo "addnode=45.63.10.68" >> /home/Libertad3.Libertad/Libertad.conf
+echo "addnode=45.63.10.68" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "addnode=178.62.93.143" >> /home/Libertad3/.Libertad/Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> /home/Libertad3/.Libertad/Libertad.conf
 sleep 5 
