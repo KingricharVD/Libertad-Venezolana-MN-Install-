@@ -38,7 +38,7 @@ sudo ufw limit ssh/tcp
 sudo ufw logging on
 echo "y" | sudo ufw enable
 sudo ufw status
-sudo ufw allow 6942/tcp
+sudo ufw allow 9734/tcp
   
 cd
 mkdir -p .Libertad
@@ -55,7 +55,7 @@ echo "addnode=155.138.218.214" >> Libertad.conf
 echo "addnode=45.63.10.68" >> Libertad.conf
 echo "addnode=178.62.93.143" >> Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> Libertad.conf
-echo "port=6942" >> Libertad.conf
+echo "port=9734" >> Libertad.conf
 mv Libertad.conf .Libertad
 
   
