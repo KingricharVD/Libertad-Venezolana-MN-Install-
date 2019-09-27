@@ -28,7 +28,7 @@ echo -e ${GREEN}"Please Enter Your Masternodes Private Key for the third node:"$
 read privkey3
 echo -e ${GREEN}"Please Enter Your Masternodes Private Key for 4th node:"${NC}
 read privkey4
-echo "Creating 4 Libertad system users with no-login access:"
+echo "Creating 4 Libertad Venezolana system users with no-login access:"
 sudo adduser --system --home /home/Libertad Libertad
 sudo adduser --system --home /home/Libertad2 Libertad2
 sudo adduser --system --home /home/Libertad3 Libertad3
