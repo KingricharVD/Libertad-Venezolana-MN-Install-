@@ -52,10 +52,13 @@ echo "server=1" >> Libertad.conf
 echo "daemon=1" >> Libertad.conf
 echo "logtimestamps=1" >> Libertad.conf
 echo "maxconnections=256" >> Libertad.conf
+echo "addnode=144.202.121.223" >> Libertad.conf
+echo "addnode=155.138.192.220" >> Libertad.conf
 echo "addnode=155.138.218.214" >> Libertad.conf
 echo "addnode=45.63.10.68" >> Libertad.conf
 echo "addnode=178.62.93.143" >> Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> Libertad.conf
+echo "addnode=2001:19f0:5401:2ab:5400:02ff:fe3f:5c5c" >> Libertad.conf
 echo "rpcport=9734" >> Libertad.conf
 mv Libertad.conf .Libertad
 
