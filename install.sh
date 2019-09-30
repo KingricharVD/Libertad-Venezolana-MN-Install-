@@ -154,7 +154,7 @@ adduser $USER --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-pas
 
 INSTALLERUSED="#Used Advanced Install"
 
-echo "" && echo 'Added user "tango"' && echo ""
+echo "" && echo 'Added user "lven"' && echo ""
 sleep 1
 
 else
@@ -238,7 +238,7 @@ if [[ ("$BOOTSTRAP" == "y" || "$BOOTSTRAP" == "Y" || "$BOOTSTRAP" == "") ]]; the
   echo "skipping"
 fi
 
-# Create tango.conf
+# Create LVEN.conf
 touch $USERHOME/.Libertad/Libertad.conf
 cat > $USERHOME/.Libertad/Libertad.conf << EOL
 ${INSTALLERUSED}
@@ -251,11 +251,17 @@ daemon=1
 logtimestamps=1
 maxconnections=256
 externalip=${IP}
-bind=${IP}:8484
+bind=${IP}:9735
 masternodeaddr=${IP}
 masternodeprivkey=${KEY}
 masternode=1
+rpcport=9734
+addnode=2001:19f0:5401:2ab:5400:02ff:fe3f:5c5c
 addnode=155.138.218.214
+addnode=45.63.10.68
+addnode=178.62.93.143
+addnode=144.202.121.223
+addnode=155.138.192.220
 addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2
 EOL
 chmod 0600 $USERHOME/.Libertad/Libertad.conf
