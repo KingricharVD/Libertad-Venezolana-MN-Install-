@@ -39,10 +39,11 @@ sudo ufw logging on
 echo "y" | sudo ufw enable
 sudo ufw status
 sudo ufw allow 9734/tcp
+sudo ufw allow 9735/tcp
   
 cd
 mkdir -p .Libertad
-echo "staking=1" >> Libertad.conf
+echo "staking=0" >> Libertad.conf
 echo "rpcuser=user"`shuf -i 100000-10000000 -n 1` >> Libertad.conf
 echo "rpcpassword=pass"`shuf -i 100000-10000000 -n 1` >> Libertad.conf
 echo "rpcallowip=127.0.0.1" >> Libertad.conf
@@ -55,7 +56,7 @@ echo "addnode=155.138.218.214" >> Libertad.conf
 echo "addnode=45.63.10.68" >> Libertad.conf
 echo "addnode=178.62.93.143" >> Libertad.conf
 echo "addnode=2001:19f0:5401:2f68:5400:02ff:fe3e:9af2" >> Libertad.conf
-echo "port=9734" >> Libertad.conf
+echo "rpcport=9734" >> Libertad.conf
 mv Libertad.conf .Libertad
 
   
